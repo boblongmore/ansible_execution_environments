@@ -10,8 +10,15 @@ This repo contains execution and decision environment definitions and dependenci
 | wwt-de | Event-Driven Ansible DE with support for wwt.eda Collection |
 | arista_netbox_ee | with eos and netbox collection and required python pkgs |
 
-## Building an Execution Environment
+## Note
 
+_If pulling an image from quay, you will need to issue the following command and then relogin to the pah_
+
+```shell
+podman login registry.redhat.io
+```
+
+## Building an Execution Environment
 
 1. Change into the directory of the EE you want to build
 
