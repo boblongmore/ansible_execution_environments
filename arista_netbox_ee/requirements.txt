@@ -1,3 +1,5 @@
 pytz
 pynetbox
 ansible-pylibssh
+kafka-python
+aiokafka
