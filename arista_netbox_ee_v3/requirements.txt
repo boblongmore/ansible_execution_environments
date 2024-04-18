@@ -3,3 +3,4 @@ pynetbox
 ansible-pylibssh
 kafka-python
 aiokafka
+netaddr
