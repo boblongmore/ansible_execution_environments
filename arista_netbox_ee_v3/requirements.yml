@@ -1,6 +1,0 @@
----
-collections:
-  - name: netbox.netbox
-  - name: arista.eos
-  - name: https://github.com/boblongmore/producer_kafka_python.git
-    type: git
