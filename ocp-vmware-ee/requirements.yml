@@ -1,0 +1,7 @@
+collections:
+  - vmware.vmware_rest
+  - kubernetes.core
+  - name: mycollections/redhat-openshift_virtualization-2.1.0.tar.gz
+    type: file
+  - name: mycollections/redhat-openshift-4.0.0.tar.gz
+    type: file

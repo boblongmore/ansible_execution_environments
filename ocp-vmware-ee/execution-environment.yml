@@ -1,0 +1,20 @@
+---
+version: 3
+
+build_arg_defaults:
+  ANSIBLE_GALAXY_CLI_COLLECTION_OPTS: '--pre'
+
+dependencies:
+  galaxy: requirements.yml
+  python: requirements.txt
+
+
+images:
+  base_image:
+    name: 'registry.redhat.io/ansible-automation-platform-24/ee-supported-rhel8:latest'
+
+additional_build_files:
+  - src: /root/execution-environments/ansible_execution_environments/ocp-vmware-ee/files/redhat-openshift-4.0.0.tar.gz
+    dest: mycollections/
+  - src: /root/execution-environments/ansible_execution_environments/ocp-vmware-ee/files/redhat-openshift_virtualization-2.1.0.tar.gz
+    dest: mycollections/
