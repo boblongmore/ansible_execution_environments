@@ -14,7 +14,7 @@ images:
     name: 'registry.redhat.io/ansible-automation-platform-24/ee-supported-rhel8:latest'
 
 additional_build_files:
-  - src: /root/execution-environments/ansible_execution_environments/ocp-vmware-ee/files/redhat-openshift-4.0.0.tar.gz
+  - src: /root/execution-environments/ansible_execution_environments/ocp-vmw-infra-ee/files/redhat-openshift-4.0.0.tar.gz
     dest: mycollections/
-  - src: /root/execution-environments/ansible_execution_environments/ocp-vmware-ee/files/redhat-openshift_virtualization-2.1.0.tar.gz
+  - src: /root/execution-environments/ansible_execution_environments/ocp-vmw-infra-ee/files/redhat-openshift_virtualization-2.1.0.tar.gz
     dest: mycollections/
