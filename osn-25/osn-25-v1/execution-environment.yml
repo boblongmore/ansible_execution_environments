@@ -10,5 +10,4 @@ dependencies:
 
 additional_build_steps:
   prepend_base: |
-    RUN export NETBOX_API=$NETBOX_API
-    RUN export NETBOX_TOKEN=$NETBOX_TOKEN
+    RUN microdnf install -y dnf && microdnf clean all
