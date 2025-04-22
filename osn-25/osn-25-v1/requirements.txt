@@ -1,0 +1,11 @@
+pytz
+pynetbox
+ansible-pylibssh
+kafka-python
+aiokafka
+netaddr
+aiohttp
+dpath
+pan-os-python
+panos-upgrade-assurance
+xmltodict

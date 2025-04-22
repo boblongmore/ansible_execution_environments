@@ -1,0 +1,6 @@
+---
+collections:
+  - name: netbox.netbox
+  - name: arista.eos
+  - name: wwt.kafka
+  - name: paloaltonetworks.panos
